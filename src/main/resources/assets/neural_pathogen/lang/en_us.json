@@ -1,4 +1,7 @@
 {
   "item.neural_pathogen.bismuth": "Bismuth",
-  "item.neural_pathogen.raw_bismuth": "Raw Bismuth"
+  "item.neural_pathogen.raw_bismuth": "Raw Bismuth",
+
+  "block.neural_pathogen.bismuth_block": "Block of Bismuth",
+  "block.neural_pathogen.bismuth_ore": "Bismuth Ore"
 }

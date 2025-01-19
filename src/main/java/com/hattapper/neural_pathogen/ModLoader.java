@@ -1,5 +1,6 @@
 package com.hattapper.neural_pathogen;
 
+import com.hattapper.neural_pathogen.block.ModBlocks;
 import com.hattapper.neural_pathogen.item.ModItems;
 import org.slf4j.Logger;
 
@@ -53,6 +54,8 @@ public class ModLoader
 
         // register all modded items
         ModItems.register(modEventBus);
+        // register all modded blocks
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -78,6 +81,8 @@ public class ModLoader
         {
             event.accept(ModItems.BISMUTH);
             event.accept(ModItems.RAW_BISMUTH);
+            event.accept(ModBlocks.BISMUTH_BLOCK);
+            event.accept(ModBlocks.BISMUTH_ORE);
         }
     }
 

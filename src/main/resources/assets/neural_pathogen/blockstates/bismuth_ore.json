@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "neural_pathogen:block/bismuth_ore"
+    }
+  }
+}
